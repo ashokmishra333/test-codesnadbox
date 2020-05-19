@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: #ecf0f1;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.App > ul {
+  padding: 0;
+  margin: 0;
+  max-height: 80vh;
+  column-count: 2;
+  font-size: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: 0;
+  background: none;
+  border: 1px solid #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.buttonContainer {
+  position: absolute;
+  bottom: 5px;
+  left: 40%;
+  text-align: center;
+}
